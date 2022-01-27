@@ -1,0 +1,466 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+.header{
+
+}
+
+.row::after{
+content: '';
+clear: both;
+display: block;
+}
+
+.col-2{
+	float: left;
+	position: relative;
+}
+
+.header .kiri{
+	width: 30%;
+	height: 100vh;
+	background-color: #3e3809;
+}
+
+.col-2 .taman{
+	margin: 30px 0 0 30px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 3em;
+	font-family: 'Poppins', sans-serif;
+}
+
+.col-2 .nusa{
+	text-align: center;
+	color: #fff;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+}
+
+.col-2 p strong{
+	color: red;
+	font-size: 1.6em;
+}
+
+.header .nusa::after{
+	display: block;
+	width:100%;
+	background-color:rgba(255,255,255,.7);
+	height: 2px;
+	margin: 10px auto;
+	content: '';
+}
+.col-2 .datang{
+	position: absolute;
+	top: 33%;
+	color:#fff;
+	left: 20%;
+}
+
+.col-2 .datang h3{
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+}
+
+.col-2 .datang h1{
+	margin-left: 10px;
+	font-size: 3em;
+	font-family: 'Poppins', sans-serif;
+}
+
+.col-2 .datang p{
+	margin-left: 25px;
+	font-weight: 600;
+	font-size: 1.3em;
+	font-style: italic;
+	font-family: 'Poppins', sans-serif;
+}
+
+.col-2 .datang .icon{
+	display: flex;
+	margin: 140px 40px;
+}
+
+.col-2 .datang .icon p{
+background-color: #fff;
+color: black;
+padding:2px 5px;
+border-radius: 10px;
+}
+
+
+.header .kanan{
+	width: 70%;
+	height: 100vh;
+}
+
+.header .nav{
+	width: 100%;
+	background-color:#3e3809;
+}
+
+.header .kanan ul{
+	text-align: center;
+}
+.header .kanan ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 50px;
+	padding: 20px 0;
+}
+
+.header .kanan ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Open Sans Condensed';
+	letter-spacing: 1px;
+}
+
+.header .kanan ul li a::after{
+	width:0%;
+	height: 2px;
+	content: '';
+	display: block;
+	background-color: #fff;
+	transition: 1s;
+}
+
+.header .kanan ul li a:hover::after{
+	width: 100%;
+}
+
+
+.header .kanan input[type="text"]{
+	outline: none;
+	border: none;
+	text-decoration: none;
+	border-radius: 20px;
+	padding:5px 15px;
+}
+
+.gambar{
+	margin: 60px 100px;
+	width: 900px;
+	border: 1px solid #eaea;
+	background-color: #8c6a2e;
+	padding: 15px;
+}
+
+.gambar p{
+text-align: justify;
+font-family: 'Dosis', sans-serif;
+color: #fff;
+margin-top: 10px;
+
+}
+
+.gambar a{
+	margin: 20px 0;
+	text-decoration: none;
+	padding: 5px 25px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #3e3809;
+	font-family: 'Poppins', sans-serif;
+	border: 2px solid #3e3809;
+	transition: 1s;
+}
+
+.gambar a:hover{
+	background:none;
+	color:  #3e3809;
+	font-weight: 500;
+}
+
+.about, .sarana{
+	margin: 50px 0;
+}
+
+.about .judul{
+	background-color: #3e3809;
+	text-align: center;
+}
+
+.judul h1{
+	padding: 10px 0;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+.about .box{
+	background-color: #3e3809;
+	
+}
+
+.about .box .row{
+margin:40px 0;
+}
+
+.row .col-3{
+	float: left;
+	width: 30%;
+	margin-left: 3.3%;
+	padding: 40px 0;
+}
+
+.about .row .col-3 h2{
+	text-align: center;
+	margin: 10px 0;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+.sarana .row .col-3 h2{
+	text-align: center;
+	margin: 10px 0;
+	font-family: 'Poppins', sans-serif;
+	color: #3e3809;
+}
+
+.row .col-3 p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 0.9em;
+	color: #fff;
+}
+
+.row .col-3 a{
+	color: #fff;
+	background-color: blue;
+	padding: 7px 20px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.row .col-3 .tengah{
+	margin-top: -60px;
+}
+
+.row .col-3 .star{
+	color:gold;
+}
+
+.sarana .judul h1{
+ color: #3e3809;
+ text-align: center;
+}
+
+.sarana .row .col-3 p,h2{
+	color: #3e3809;
+}
+
+.wawasan{
+
+}
+
+.wawasan .judul {
+	background-color: #3e3809;
+}
+.wawasan .container{
+	margin: 40px 0 0 0;
+}
+.wawasan .box{
+	display: flex;
+	background-color: #3e3809;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+.wawasan .tulisan{
+	background-color: #8c6a2e;
+	padding: 10px;
+}
+
+.wawasan .tulisan p{
+	color: #ffff;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+}
+
+.footer{
+background-color: #3e3809;
+padding: 30px 0;
+}
+
+.footer .container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.footer .box{
+	display: flex;
+	justify-content: space-around;
+	color:#fff;
+}
+
+.footer .box .left{
+	width: 40%;
+}
+
+
+.footer .box .left h3{
+	font-family: 'Poppins', sans-serif;
+}
+
+.footer .box .mid{
+width: 25%;
+}
+
+.footer .box .mid .aksi{
+	margin-top: 80px;
+}
+.footer .box .mid a{
+	line-height: 30px;
+	text-decoration: none;
+	color:#fff;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	display: block;
+}
+
+
+
+.footer .box .mid a::after{
+	display: block;
+	width:100%;
+	background-color:rgba(255,255,255,.7);
+	height: 2px;
+	margin: 10px auto;
+	content: '';
+}
+
+.footer .box .right{
+	width: 25%;
+}
+
+.footer .box .right .judul span{
+	font-family: 'Poppins', sans-serif;
+	background-color: #8c6a2e;
+	border-radius: 5px;
+	display: block;
+	padding: 5px 20px;
+}
+
+.footer .box .right h3{
+	margin: 30px 0;
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.5em;
+}
+.footer .box .right p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.footer .box .right .telp{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 100;
+	margin: 5px 0;
+}
+
+.footer .box .right .fax{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 100;
+	margin: 0 0 30px 0;
+}
+
+.footer .box .right h4{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+}
+
+.footer .box .right .jam{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 100;
+	padding: 5px 0 30px 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* javascript */
+
+.datang{
+	opacity: 0;
+	transform: translate(-150px,0);
+	transition: 2s ease all;
+}
+
+.datang.datangk{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.subgambar{
+	opacity: 0;
+	transform: translate(150px,0);
+	transition: 2s ease all;
+}
+
+.subgambar.subgambarr{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.about .judul h1{
+	opacity: 0;
+	transition: 1s;
+	transform: translate(0,-100px);
+}
+
+.about .judul h1.judull{
+	
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.about .col-3{
+	opacity: 0;
+	transition: 1s;
+	transform: translate(0,-150px);
+}
+
+.about .col-3.imgg{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.sarana .judul h1{
+	opacity: 0;
+	transition: 1s;
+	transform: translate(0,-100px);
+}
+
+.sarana .judul h1.judulll{
+	
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+
+.top .col-3{
+	opacity: 0;
+	transition: 1s;
+	transform: translate(0,-150px);
+}
+
+.top .col-3.topp{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.botom .col-3{
+	opacity: 0;
+	transition: 1s;
+	transform: translate(0,-150px);
+}
+
+.botom .col-3.botomm{
+	opacity: 1;
+	transform: translate(0,0);
+}
